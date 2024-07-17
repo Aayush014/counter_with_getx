@@ -34,12 +34,18 @@ This repository contains a simple Flutter application that demonstrates the use 
   <summary><h2>📽️Video</h2></summary>
   <p>
     <table align="center">
-  <tr>
-    <video src ="https://github.com/user-attachments/assets/94adc243-cd6f-464f-9111-fe9cf66f0e58"></video> </h1>
-  </tr>
+      <tr>
+        <td>
+          <video src="https://github.com/user-attachments/assets/94adc243-cd6f-464f-9111-fe9cf66f0e58" width="420" height="315"></video>
+        </td>
+        <td>
+          <video src="https://github.com/user-attachments/assets/4454bb5a-884f-4135-ad30-2637486d841b" width="420" height="315"></video>
+        </td>
+      </tr>
     </table>   
   </p>
-  </details>
+</details>
+
 
 ## Introduction to GetX
 
