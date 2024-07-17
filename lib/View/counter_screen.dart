@@ -85,6 +85,11 @@ class CounterScreen extends StatelessWidget {
       floatingActionButton: FloatingActionButton(
         backgroundColor: Theme.of(context).colorScheme.secondary,
         onPressed: () {
+          // Get.snackbar(
+          //   "Your a/c no. xxx0813 is credited for Rs. 100000000",
+          //   "from Reliance",
+          //   snackPosition: SnackPosition.TOP,
+          // );
           Get.to(const SecondScreen(), transition: Transition.circularReveal);
         },
         child: Icon(
@@ -100,6 +105,7 @@ CupertinoButton myButton(
     BuildContext context, void Function()? onPressed, IconData i1) {
   return CupertinoButton(
     padding: EdgeInsets.zero,
+    onPressed: onPressed,
     child: Container(
       height: 80,
       width: 80,
@@ -112,7 +118,6 @@ CupertinoButton myButton(
         color: Theme.of(context).colorScheme.tertiary,
       ),
     ),
-    onPressed: onPressed,
   );
 }
 
