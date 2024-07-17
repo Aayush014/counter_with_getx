@@ -14,12 +14,14 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Obx(() {
-      return GetMaterialApp(
-        debugShowCheckedModeBanner: false,
-        theme: themeController.isDark.value ? darkTheme : lightTheme,
-        home: CounterScreen(),
-      );
-    },);
+    return Obx(
+      () {
+        return GetMaterialApp(
+          debugShowCheckedModeBanner: false,
+          theme: themeController.isDark.value ? darkTheme : lightTheme,
+          home: CounterScreen(),
+        );
+      },
+    );
   }
 }

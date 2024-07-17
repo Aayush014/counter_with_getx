@@ -67,38 +67,37 @@ class CounterScreen extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-                  myButton(
-                    context,
-                    () {
-                      counterController.decrement();
-                    },
-                    Icons.remove
-                  ),
-                  myButton(
-                      context,
-                          () {
-                        counterController.reset();
-                      },
-                      Icons.exposure_zero
-                  ),
-                  myButton(
-                      context,
-                          () {
-                        counterController.increment();
-                      },
-                      Icons.add
-                  ),
+                  myButton(context, () {
+                    counterController.decrement();
+                  }, Icons.remove),
+                  myButton(context, () {
+                    counterController.reset();
+                  }, Icons.exposure_zero),
+                  myButton(context, () {
+                    counterController.increment();
+                  }, Icons.add),
                 ],
               ),
             ],
           ),
         ),
       ),
+      floatingActionButton: FloatingActionButton(
+        backgroundColor: Theme.of(context).colorScheme.secondary,
+        onPressed: () {
+          Get.to(const SecondScreen(), transition: Transition.circularReveal);
+        },
+        child: Icon(
+          Icons.navigate_next,
+          color: Theme.of(context).colorScheme.tertiary,
+        ),
+      ),
     );
   }
 }
 
-CupertinoButton myButton(BuildContext context, void Function()? onPressed,IconData i1) {
+CupertinoButton myButton(
+    BuildContext context, void Function()? onPressed, IconData i1) {
   return CupertinoButton(
     padding: EdgeInsets.zero,
     child: Container(
@@ -149,4 +148,15 @@ TweenAnimationBuilder<double> themeAnimatedIcon() {
       },
     ),
   );
+}
+
+class SecondScreen extends StatelessWidget {
+  const SecondScreen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Theme.of(context).colorScheme.secondary,
+    );
+  }
 }
